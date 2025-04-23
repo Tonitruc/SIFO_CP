@@ -3566,11 +3566,11 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/MAIN.vwf")
 VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 {
 	ZOOM{
-		ZBEGIN = 209561;
-		ZEND = 266638;
+		ZBEGIN = 384570;
+		ZEND = 441647;
 		NUMERATOR = 788;
 		DENOMINATOR = 57077;
-		TOP_INDEX = 12;
+		TOP_INDEX = 128;
 	}
 	CLOCK{
 		PERIOD = 5000;
@@ -4837,8 +4837,16 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG0";
+		SIGNAL = "SF";
 		INDEX = 157;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "REG0";
+		INDEX = 158;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4846,14 +4854,6 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 	}
 	LINE{
 		SIGNAL = "REG0[14]";
-		INDEX = 158;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "REG0[13]";
 		INDEX = 159;
 		FORMAT = E;
 		SCALE = 1;
@@ -4861,7 +4861,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG0[12]";
+		SIGNAL = "REG0[13]";
 		INDEX = 160;
 		FORMAT = E;
 		SCALE = 1;
@@ -4869,7 +4869,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG0[11]";
+		SIGNAL = "REG0[12]";
 		INDEX = 161;
 		FORMAT = E;
 		SCALE = 1;
@@ -4877,7 +4877,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG0[10]";
+		SIGNAL = "REG0[11]";
 		INDEX = 162;
 		FORMAT = E;
 		SCALE = 1;
@@ -4885,7 +4885,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG0[9]";
+		SIGNAL = "REG0[10]";
 		INDEX = 163;
 		FORMAT = E;
 		SCALE = 1;
@@ -4893,7 +4893,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG0[8]";
+		SIGNAL = "REG0[9]";
 		INDEX = 164;
 		FORMAT = E;
 		SCALE = 1;
@@ -4901,7 +4901,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG0[7]";
+		SIGNAL = "REG0[8]";
 		INDEX = 165;
 		FORMAT = E;
 		SCALE = 1;
@@ -4909,7 +4909,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG0[6]";
+		SIGNAL = "REG0[7]";
 		INDEX = 166;
 		FORMAT = E;
 		SCALE = 1;
@@ -4917,7 +4917,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG0[5]";
+		SIGNAL = "REG0[6]";
 		INDEX = 167;
 		FORMAT = E;
 		SCALE = 1;
@@ -4925,7 +4925,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG0[4]";
+		SIGNAL = "REG0[5]";
 		INDEX = 168;
 		FORMAT = E;
 		SCALE = 1;
@@ -4933,7 +4933,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG0[3]";
+		SIGNAL = "REG0[4]";
 		INDEX = 169;
 		FORMAT = E;
 		SCALE = 1;
@@ -4941,7 +4941,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG0[2]";
+		SIGNAL = "REG0[3]";
 		INDEX = 170;
 		FORMAT = E;
 		SCALE = 1;
@@ -4949,7 +4949,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG0[1]";
+		SIGNAL = "REG0[2]";
 		INDEX = 171;
 		FORMAT = E;
 		SCALE = 1;
@@ -4957,7 +4957,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG0[0]";
+		SIGNAL = "REG0[1]";
 		INDEX = 172;
 		FORMAT = E;
 		SCALE = 1;
@@ -4965,8 +4965,16 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG1";
+		SIGNAL = "REG0[0]";
 		INDEX = 173;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "REG1";
+		INDEX = 174;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -4974,14 +4982,6 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 	}
 	LINE{
 		SIGNAL = "REG1[14]";
-		INDEX = 174;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "REG1[13]";
 		INDEX = 175;
 		FORMAT = E;
 		SCALE = 1;
@@ -4989,7 +4989,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG1[12]";
+		SIGNAL = "REG1[13]";
 		INDEX = 176;
 		FORMAT = E;
 		SCALE = 1;
@@ -4997,7 +4997,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG1[11]";
+		SIGNAL = "REG1[12]";
 		INDEX = 177;
 		FORMAT = E;
 		SCALE = 1;
@@ -5005,7 +5005,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG1[10]";
+		SIGNAL = "REG1[11]";
 		INDEX = 178;
 		FORMAT = E;
 		SCALE = 1;
@@ -5013,7 +5013,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG1[9]";
+		SIGNAL = "REG1[10]";
 		INDEX = 179;
 		FORMAT = E;
 		SCALE = 1;
@@ -5021,7 +5021,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG1[8]";
+		SIGNAL = "REG1[9]";
 		INDEX = 180;
 		FORMAT = E;
 		SCALE = 1;
@@ -5029,7 +5029,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG1[7]";
+		SIGNAL = "REG1[8]";
 		INDEX = 181;
 		FORMAT = E;
 		SCALE = 1;
@@ -5037,7 +5037,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG1[6]";
+		SIGNAL = "REG1[7]";
 		INDEX = 182;
 		FORMAT = E;
 		SCALE = 1;
@@ -5045,7 +5045,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG1[5]";
+		SIGNAL = "REG1[6]";
 		INDEX = 183;
 		FORMAT = E;
 		SCALE = 1;
@@ -5053,7 +5053,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG1[4]";
+		SIGNAL = "REG1[5]";
 		INDEX = 184;
 		FORMAT = E;
 		SCALE = 1;
@@ -5061,7 +5061,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG1[3]";
+		SIGNAL = "REG1[4]";
 		INDEX = 185;
 		FORMAT = E;
 		SCALE = 1;
@@ -5069,7 +5069,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG1[2]";
+		SIGNAL = "REG1[3]";
 		INDEX = 186;
 		FORMAT = E;
 		SCALE = 1;
@@ -5077,7 +5077,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG1[1]";
+		SIGNAL = "REG1[2]";
 		INDEX = 187;
 		FORMAT = E;
 		SCALE = 1;
@@ -5085,7 +5085,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG1[0]";
+		SIGNAL = "REG1[1]";
 		INDEX = 188;
 		FORMAT = E;
 		SCALE = 1;
@@ -5093,8 +5093,16 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG2";
+		SIGNAL = "REG1[0]";
 		INDEX = 189;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "REG2";
+		INDEX = 190;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5102,14 +5110,6 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 	}
 	LINE{
 		SIGNAL = "REG2[14]";
-		INDEX = 190;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "REG2[13]";
 		INDEX = 191;
 		FORMAT = E;
 		SCALE = 1;
@@ -5117,7 +5117,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG2[12]";
+		SIGNAL = "REG2[13]";
 		INDEX = 192;
 		FORMAT = E;
 		SCALE = 1;
@@ -5125,7 +5125,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG2[11]";
+		SIGNAL = "REG2[12]";
 		INDEX = 193;
 		FORMAT = E;
 		SCALE = 1;
@@ -5133,7 +5133,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG2[10]";
+		SIGNAL = "REG2[11]";
 		INDEX = 194;
 		FORMAT = E;
 		SCALE = 1;
@@ -5141,7 +5141,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG2[9]";
+		SIGNAL = "REG2[10]";
 		INDEX = 195;
 		FORMAT = E;
 		SCALE = 1;
@@ -5149,7 +5149,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG2[8]";
+		SIGNAL = "REG2[9]";
 		INDEX = 196;
 		FORMAT = E;
 		SCALE = 1;
@@ -5157,7 +5157,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG2[7]";
+		SIGNAL = "REG2[8]";
 		INDEX = 197;
 		FORMAT = E;
 		SCALE = 1;
@@ -5165,7 +5165,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG2[6]";
+		SIGNAL = "REG2[7]";
 		INDEX = 198;
 		FORMAT = E;
 		SCALE = 1;
@@ -5173,7 +5173,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG2[5]";
+		SIGNAL = "REG2[6]";
 		INDEX = 199;
 		FORMAT = E;
 		SCALE = 1;
@@ -5181,7 +5181,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG2[4]";
+		SIGNAL = "REG2[5]";
 		INDEX = 200;
 		FORMAT = E;
 		SCALE = 1;
@@ -5189,7 +5189,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG2[3]";
+		SIGNAL = "REG2[4]";
 		INDEX = 201;
 		FORMAT = E;
 		SCALE = 1;
@@ -5197,7 +5197,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG2[2]";
+		SIGNAL = "REG2[3]";
 		INDEX = 202;
 		FORMAT = E;
 		SCALE = 1;
@@ -5205,7 +5205,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG2[1]";
+		SIGNAL = "REG2[2]";
 		INDEX = 203;
 		FORMAT = E;
 		SCALE = 1;
@@ -5213,7 +5213,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG2[0]";
+		SIGNAL = "REG2[1]";
 		INDEX = 204;
 		FORMAT = E;
 		SCALE = 1;
@@ -5221,8 +5221,16 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG3";
+		SIGNAL = "REG2[0]";
 		INDEX = 205;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "REG3";
+		INDEX = 206;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5230,14 +5238,6 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 	}
 	LINE{
 		SIGNAL = "REG3[14]";
-		INDEX = 206;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "REG3[13]";
 		INDEX = 207;
 		FORMAT = E;
 		SCALE = 1;
@@ -5245,7 +5245,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG3[12]";
+		SIGNAL = "REG3[13]";
 		INDEX = 208;
 		FORMAT = E;
 		SCALE = 1;
@@ -5253,7 +5253,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG3[11]";
+		SIGNAL = "REG3[12]";
 		INDEX = 209;
 		FORMAT = E;
 		SCALE = 1;
@@ -5261,7 +5261,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG3[10]";
+		SIGNAL = "REG3[11]";
 		INDEX = 210;
 		FORMAT = E;
 		SCALE = 1;
@@ -5269,7 +5269,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG3[9]";
+		SIGNAL = "REG3[10]";
 		INDEX = 211;
 		FORMAT = E;
 		SCALE = 1;
@@ -5277,7 +5277,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG3[8]";
+		SIGNAL = "REG3[9]";
 		INDEX = 212;
 		FORMAT = E;
 		SCALE = 1;
@@ -5285,7 +5285,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG3[7]";
+		SIGNAL = "REG3[8]";
 		INDEX = 213;
 		FORMAT = E;
 		SCALE = 1;
@@ -5293,7 +5293,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG3[6]";
+		SIGNAL = "REG3[7]";
 		INDEX = 214;
 		FORMAT = E;
 		SCALE = 1;
@@ -5301,7 +5301,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG3[5]";
+		SIGNAL = "REG3[6]";
 		INDEX = 215;
 		FORMAT = E;
 		SCALE = 1;
@@ -5309,7 +5309,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG3[4]";
+		SIGNAL = "REG3[5]";
 		INDEX = 216;
 		FORMAT = E;
 		SCALE = 1;
@@ -5317,7 +5317,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG3[3]";
+		SIGNAL = "REG3[4]";
 		INDEX = 217;
 		FORMAT = E;
 		SCALE = 1;
@@ -5325,7 +5325,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG3[2]";
+		SIGNAL = "REG3[3]";
 		INDEX = 218;
 		FORMAT = E;
 		SCALE = 1;
@@ -5333,7 +5333,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG3[1]";
+		SIGNAL = "REG3[2]";
 		INDEX = 219;
 		FORMAT = E;
 		SCALE = 1;
@@ -5341,7 +5341,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG3[0]";
+		SIGNAL = "REG3[1]";
 		INDEX = 220;
 		FORMAT = E;
 		SCALE = 1;
@@ -5349,8 +5349,16 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG4";
+		SIGNAL = "REG3[0]";
 		INDEX = 221;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "REG4";
+		INDEX = 222;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5358,14 +5366,6 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 	}
 	LINE{
 		SIGNAL = "REG4[14]";
-		INDEX = 222;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "REG4[13]";
 		INDEX = 223;
 		FORMAT = E;
 		SCALE = 1;
@@ -5373,7 +5373,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG4[12]";
+		SIGNAL = "REG4[13]";
 		INDEX = 224;
 		FORMAT = E;
 		SCALE = 1;
@@ -5381,7 +5381,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG4[11]";
+		SIGNAL = "REG4[12]";
 		INDEX = 225;
 		FORMAT = E;
 		SCALE = 1;
@@ -5389,7 +5389,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG4[10]";
+		SIGNAL = "REG4[11]";
 		INDEX = 226;
 		FORMAT = E;
 		SCALE = 1;
@@ -5397,7 +5397,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG4[9]";
+		SIGNAL = "REG4[10]";
 		INDEX = 227;
 		FORMAT = E;
 		SCALE = 1;
@@ -5405,7 +5405,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG4[8]";
+		SIGNAL = "REG4[9]";
 		INDEX = 228;
 		FORMAT = E;
 		SCALE = 1;
@@ -5413,7 +5413,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG4[7]";
+		SIGNAL = "REG4[8]";
 		INDEX = 229;
 		FORMAT = E;
 		SCALE = 1;
@@ -5421,7 +5421,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG4[6]";
+		SIGNAL = "REG4[7]";
 		INDEX = 230;
 		FORMAT = E;
 		SCALE = 1;
@@ -5429,7 +5429,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG4[5]";
+		SIGNAL = "REG4[6]";
 		INDEX = 231;
 		FORMAT = E;
 		SCALE = 1;
@@ -5437,7 +5437,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG4[4]";
+		SIGNAL = "REG4[5]";
 		INDEX = 232;
 		FORMAT = E;
 		SCALE = 1;
@@ -5445,7 +5445,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG4[3]";
+		SIGNAL = "REG4[4]";
 		INDEX = 233;
 		FORMAT = E;
 		SCALE = 1;
@@ -5453,7 +5453,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG4[2]";
+		SIGNAL = "REG4[3]";
 		INDEX = 234;
 		FORMAT = E;
 		SCALE = 1;
@@ -5461,7 +5461,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG4[1]";
+		SIGNAL = "REG4[2]";
 		INDEX = 235;
 		FORMAT = E;
 		SCALE = 1;
@@ -5469,7 +5469,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG4[0]";
+		SIGNAL = "REG4[1]";
 		INDEX = 236;
 		FORMAT = E;
 		SCALE = 1;
@@ -5477,8 +5477,16 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG5";
+		SIGNAL = "REG4[0]";
 		INDEX = 237;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "REG5";
+		INDEX = 238;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5486,14 +5494,6 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 	}
 	LINE{
 		SIGNAL = "REG5[14]";
-		INDEX = 238;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "REG5[13]";
 		INDEX = 239;
 		FORMAT = E;
 		SCALE = 1;
@@ -5501,7 +5501,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG5[12]";
+		SIGNAL = "REG5[13]";
 		INDEX = 240;
 		FORMAT = E;
 		SCALE = 1;
@@ -5509,7 +5509,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG5[11]";
+		SIGNAL = "REG5[12]";
 		INDEX = 241;
 		FORMAT = E;
 		SCALE = 1;
@@ -5517,7 +5517,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG5[10]";
+		SIGNAL = "REG5[11]";
 		INDEX = 242;
 		FORMAT = E;
 		SCALE = 1;
@@ -5525,7 +5525,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG5[9]";
+		SIGNAL = "REG5[10]";
 		INDEX = 243;
 		FORMAT = E;
 		SCALE = 1;
@@ -5533,7 +5533,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG5[8]";
+		SIGNAL = "REG5[9]";
 		INDEX = 244;
 		FORMAT = E;
 		SCALE = 1;
@@ -5541,7 +5541,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG5[7]";
+		SIGNAL = "REG5[8]";
 		INDEX = 245;
 		FORMAT = E;
 		SCALE = 1;
@@ -5549,7 +5549,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG5[6]";
+		SIGNAL = "REG5[7]";
 		INDEX = 246;
 		FORMAT = E;
 		SCALE = 1;
@@ -5557,7 +5557,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG5[5]";
+		SIGNAL = "REG5[6]";
 		INDEX = 247;
 		FORMAT = E;
 		SCALE = 1;
@@ -5565,7 +5565,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG5[4]";
+		SIGNAL = "REG5[5]";
 		INDEX = 248;
 		FORMAT = E;
 		SCALE = 1;
@@ -5573,7 +5573,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG5[3]";
+		SIGNAL = "REG5[4]";
 		INDEX = 249;
 		FORMAT = E;
 		SCALE = 1;
@@ -5581,7 +5581,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG5[2]";
+		SIGNAL = "REG5[3]";
 		INDEX = 250;
 		FORMAT = E;
 		SCALE = 1;
@@ -5589,7 +5589,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG5[1]";
+		SIGNAL = "REG5[2]";
 		INDEX = 251;
 		FORMAT = E;
 		SCALE = 1;
@@ -5597,7 +5597,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG5[0]";
+		SIGNAL = "REG5[1]";
 		INDEX = 252;
 		FORMAT = E;
 		SCALE = 1;
@@ -5605,8 +5605,16 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG6";
+		SIGNAL = "REG5[0]";
 		INDEX = 253;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "REG6";
+		INDEX = 254;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5614,14 +5622,6 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 	}
 	LINE{
 		SIGNAL = "REG6[14]";
-		INDEX = 254;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "REG6[13]";
 		INDEX = 255;
 		FORMAT = E;
 		SCALE = 1;
@@ -5629,7 +5629,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG6[12]";
+		SIGNAL = "REG6[13]";
 		INDEX = 256;
 		FORMAT = E;
 		SCALE = 1;
@@ -5637,7 +5637,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG6[11]";
+		SIGNAL = "REG6[12]";
 		INDEX = 257;
 		FORMAT = E;
 		SCALE = 1;
@@ -5645,7 +5645,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG6[10]";
+		SIGNAL = "REG6[11]";
 		INDEX = 258;
 		FORMAT = E;
 		SCALE = 1;
@@ -5653,7 +5653,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG6[9]";
+		SIGNAL = "REG6[10]";
 		INDEX = 259;
 		FORMAT = E;
 		SCALE = 1;
@@ -5661,7 +5661,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG6[8]";
+		SIGNAL = "REG6[9]";
 		INDEX = 260;
 		FORMAT = E;
 		SCALE = 1;
@@ -5669,7 +5669,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG6[7]";
+		SIGNAL = "REG6[8]";
 		INDEX = 261;
 		FORMAT = E;
 		SCALE = 1;
@@ -5677,7 +5677,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG6[6]";
+		SIGNAL = "REG6[7]";
 		INDEX = 262;
 		FORMAT = E;
 		SCALE = 1;
@@ -5685,7 +5685,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG6[5]";
+		SIGNAL = "REG6[6]";
 		INDEX = 263;
 		FORMAT = E;
 		SCALE = 1;
@@ -5693,7 +5693,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG6[4]";
+		SIGNAL = "REG6[5]";
 		INDEX = 264;
 		FORMAT = E;
 		SCALE = 1;
@@ -5701,7 +5701,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG6[3]";
+		SIGNAL = "REG6[4]";
 		INDEX = 265;
 		FORMAT = E;
 		SCALE = 1;
@@ -5709,7 +5709,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG6[2]";
+		SIGNAL = "REG6[3]";
 		INDEX = 266;
 		FORMAT = E;
 		SCALE = 1;
@@ -5717,7 +5717,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG6[1]";
+		SIGNAL = "REG6[2]";
 		INDEX = 267;
 		FORMAT = E;
 		SCALE = 1;
@@ -5725,7 +5725,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG6[0]";
+		SIGNAL = "REG6[1]";
 		INDEX = 268;
 		FORMAT = E;
 		SCALE = 1;
@@ -5733,8 +5733,16 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG7";
+		SIGNAL = "REG6[0]";
 		INDEX = 269;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "REG7";
+		INDEX = 270;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5742,14 +5750,6 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 	}
 	LINE{
 		SIGNAL = "REG7[14]";
-		INDEX = 270;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "REG7[13]";
 		INDEX = 271;
 		FORMAT = E;
 		SCALE = 1;
@@ -5757,7 +5757,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG7[12]";
+		SIGNAL = "REG7[13]";
 		INDEX = 272;
 		FORMAT = E;
 		SCALE = 1;
@@ -5765,7 +5765,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG7[11]";
+		SIGNAL = "REG7[12]";
 		INDEX = 273;
 		FORMAT = E;
 		SCALE = 1;
@@ -5773,7 +5773,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG7[10]";
+		SIGNAL = "REG7[11]";
 		INDEX = 274;
 		FORMAT = E;
 		SCALE = 1;
@@ -5781,7 +5781,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG7[9]";
+		SIGNAL = "REG7[10]";
 		INDEX = 275;
 		FORMAT = E;
 		SCALE = 1;
@@ -5789,7 +5789,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG7[8]";
+		SIGNAL = "REG7[9]";
 		INDEX = 276;
 		FORMAT = E;
 		SCALE = 1;
@@ -5797,7 +5797,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG7[7]";
+		SIGNAL = "REG7[8]";
 		INDEX = 277;
 		FORMAT = E;
 		SCALE = 1;
@@ -5805,7 +5805,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG7[6]";
+		SIGNAL = "REG7[7]";
 		INDEX = 278;
 		FORMAT = E;
 		SCALE = 1;
@@ -5813,7 +5813,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG7[5]";
+		SIGNAL = "REG7[6]";
 		INDEX = 279;
 		FORMAT = E;
 		SCALE = 1;
@@ -5821,7 +5821,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG7[4]";
+		SIGNAL = "REG7[5]";
 		INDEX = 280;
 		FORMAT = E;
 		SCALE = 1;
@@ -5829,7 +5829,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG7[3]";
+		SIGNAL = "REG7[4]";
 		INDEX = 281;
 		FORMAT = E;
 		SCALE = 1;
@@ -5837,7 +5837,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG7[2]";
+		SIGNAL = "REG7[3]";
 		INDEX = 282;
 		FORMAT = E;
 		SCALE = 1;
@@ -5845,7 +5845,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG7[1]";
+		SIGNAL = "REG7[2]";
 		INDEX = 283;
 		FORMAT = E;
 		SCALE = 1;
@@ -5853,7 +5853,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG7[0]";
+		SIGNAL = "REG7[1]";
 		INDEX = 284;
 		FORMAT = E;
 		SCALE = 1;
@@ -5861,8 +5861,16 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG8";
+		SIGNAL = "REG7[0]";
 		INDEX = 285;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "REG8";
+		INDEX = 286;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5870,14 +5878,6 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 	}
 	LINE{
 		SIGNAL = "REG8[14]";
-		INDEX = 286;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "REG8[13]";
 		INDEX = 287;
 		FORMAT = E;
 		SCALE = 1;
@@ -5885,7 +5885,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG8[12]";
+		SIGNAL = "REG8[13]";
 		INDEX = 288;
 		FORMAT = E;
 		SCALE = 1;
@@ -5893,7 +5893,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG8[11]";
+		SIGNAL = "REG8[12]";
 		INDEX = 289;
 		FORMAT = E;
 		SCALE = 1;
@@ -5901,7 +5901,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG8[10]";
+		SIGNAL = "REG8[11]";
 		INDEX = 290;
 		FORMAT = E;
 		SCALE = 1;
@@ -5909,7 +5909,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG8[9]";
+		SIGNAL = "REG8[10]";
 		INDEX = 291;
 		FORMAT = E;
 		SCALE = 1;
@@ -5917,7 +5917,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG8[8]";
+		SIGNAL = "REG8[9]";
 		INDEX = 292;
 		FORMAT = E;
 		SCALE = 1;
@@ -5925,7 +5925,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG8[7]";
+		SIGNAL = "REG8[8]";
 		INDEX = 293;
 		FORMAT = E;
 		SCALE = 1;
@@ -5933,7 +5933,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG8[6]";
+		SIGNAL = "REG8[7]";
 		INDEX = 294;
 		FORMAT = E;
 		SCALE = 1;
@@ -5941,7 +5941,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG8[5]";
+		SIGNAL = "REG8[6]";
 		INDEX = 295;
 		FORMAT = E;
 		SCALE = 1;
@@ -5949,7 +5949,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG8[4]";
+		SIGNAL = "REG8[5]";
 		INDEX = 296;
 		FORMAT = E;
 		SCALE = 1;
@@ -5957,7 +5957,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG8[3]";
+		SIGNAL = "REG8[4]";
 		INDEX = 297;
 		FORMAT = E;
 		SCALE = 1;
@@ -5965,7 +5965,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG8[2]";
+		SIGNAL = "REG8[3]";
 		INDEX = 298;
 		FORMAT = E;
 		SCALE = 1;
@@ -5973,7 +5973,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG8[1]";
+		SIGNAL = "REG8[2]";
 		INDEX = 299;
 		FORMAT = E;
 		SCALE = 1;
@@ -5981,7 +5981,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG8[0]";
+		SIGNAL = "REG8[1]";
 		INDEX = 300;
 		FORMAT = E;
 		SCALE = 1;
@@ -5989,8 +5989,16 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG9";
+		SIGNAL = "REG8[0]";
 		INDEX = 301;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "REG9";
+		INDEX = 302;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5998,14 +6006,6 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 	}
 	LINE{
 		SIGNAL = "REG9[14]";
-		INDEX = 302;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "REG9[13]";
 		INDEX = 303;
 		FORMAT = E;
 		SCALE = 1;
@@ -6013,7 +6013,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG9[12]";
+		SIGNAL = "REG9[13]";
 		INDEX = 304;
 		FORMAT = E;
 		SCALE = 1;
@@ -6021,7 +6021,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG9[11]";
+		SIGNAL = "REG9[12]";
 		INDEX = 305;
 		FORMAT = E;
 		SCALE = 1;
@@ -6029,7 +6029,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG9[10]";
+		SIGNAL = "REG9[11]";
 		INDEX = 306;
 		FORMAT = E;
 		SCALE = 1;
@@ -6037,7 +6037,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG9[9]";
+		SIGNAL = "REG9[10]";
 		INDEX = 307;
 		FORMAT = E;
 		SCALE = 1;
@@ -6045,7 +6045,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG9[8]";
+		SIGNAL = "REG9[9]";
 		INDEX = 308;
 		FORMAT = E;
 		SCALE = 1;
@@ -6053,7 +6053,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG9[7]";
+		SIGNAL = "REG9[8]";
 		INDEX = 309;
 		FORMAT = E;
 		SCALE = 1;
@@ -6061,7 +6061,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG9[6]";
+		SIGNAL = "REG9[7]";
 		INDEX = 310;
 		FORMAT = E;
 		SCALE = 1;
@@ -6069,7 +6069,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG9[5]";
+		SIGNAL = "REG9[6]";
 		INDEX = 311;
 		FORMAT = E;
 		SCALE = 1;
@@ -6077,7 +6077,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG9[4]";
+		SIGNAL = "REG9[5]";
 		INDEX = 312;
 		FORMAT = E;
 		SCALE = 1;
@@ -6085,7 +6085,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG9[3]";
+		SIGNAL = "REG9[4]";
 		INDEX = 313;
 		FORMAT = E;
 		SCALE = 1;
@@ -6093,7 +6093,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG9[2]";
+		SIGNAL = "REG9[3]";
 		INDEX = 314;
 		FORMAT = E;
 		SCALE = 1;
@@ -6101,7 +6101,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG9[1]";
+		SIGNAL = "REG9[2]";
 		INDEX = 315;
 		FORMAT = E;
 		SCALE = 1;
@@ -6109,7 +6109,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG9[0]";
+		SIGNAL = "REG9[1]";
 		INDEX = 316;
 		FORMAT = E;
 		SCALE = 1;
@@ -6117,8 +6117,16 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG10";
+		SIGNAL = "REG9[0]";
 		INDEX = 317;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "REG10";
+		INDEX = 318;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6126,14 +6134,6 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 	}
 	LINE{
 		SIGNAL = "REG10[14]";
-		INDEX = 318;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "REG10[13]";
 		INDEX = 319;
 		FORMAT = E;
 		SCALE = 1;
@@ -6141,7 +6141,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG10[12]";
+		SIGNAL = "REG10[13]";
 		INDEX = 320;
 		FORMAT = E;
 		SCALE = 1;
@@ -6149,7 +6149,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG10[11]";
+		SIGNAL = "REG10[12]";
 		INDEX = 321;
 		FORMAT = E;
 		SCALE = 1;
@@ -6157,7 +6157,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG10[10]";
+		SIGNAL = "REG10[11]";
 		INDEX = 322;
 		FORMAT = E;
 		SCALE = 1;
@@ -6165,7 +6165,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG10[9]";
+		SIGNAL = "REG10[10]";
 		INDEX = 323;
 		FORMAT = E;
 		SCALE = 1;
@@ -6173,7 +6173,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG10[8]";
+		SIGNAL = "REG10[9]";
 		INDEX = 324;
 		FORMAT = E;
 		SCALE = 1;
@@ -6181,7 +6181,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG10[7]";
+		SIGNAL = "REG10[8]";
 		INDEX = 325;
 		FORMAT = E;
 		SCALE = 1;
@@ -6189,7 +6189,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG10[6]";
+		SIGNAL = "REG10[7]";
 		INDEX = 326;
 		FORMAT = E;
 		SCALE = 1;
@@ -6197,7 +6197,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG10[5]";
+		SIGNAL = "REG10[6]";
 		INDEX = 327;
 		FORMAT = E;
 		SCALE = 1;
@@ -6205,7 +6205,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG10[4]";
+		SIGNAL = "REG10[5]";
 		INDEX = 328;
 		FORMAT = E;
 		SCALE = 1;
@@ -6213,7 +6213,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG10[3]";
+		SIGNAL = "REG10[4]";
 		INDEX = 329;
 		FORMAT = E;
 		SCALE = 1;
@@ -6221,7 +6221,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG10[2]";
+		SIGNAL = "REG10[3]";
 		INDEX = 330;
 		FORMAT = E;
 		SCALE = 1;
@@ -6229,7 +6229,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG10[1]";
+		SIGNAL = "REG10[2]";
 		INDEX = 331;
 		FORMAT = E;
 		SCALE = 1;
@@ -6237,7 +6237,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG10[0]";
+		SIGNAL = "REG10[1]";
 		INDEX = 332;
 		FORMAT = E;
 		SCALE = 1;
@@ -6245,8 +6245,16 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG11";
+		SIGNAL = "REG10[0]";
 		INDEX = 333;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "REG11";
+		INDEX = 334;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -6254,14 +6262,6 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 	}
 	LINE{
 		SIGNAL = "REG11[14]";
-		INDEX = 334;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "REG11[13]";
 		INDEX = 335;
 		FORMAT = E;
 		SCALE = 1;
@@ -6269,7 +6269,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG11[12]";
+		SIGNAL = "REG11[13]";
 		INDEX = 336;
 		FORMAT = E;
 		SCALE = 1;
@@ -6277,7 +6277,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG11[11]";
+		SIGNAL = "REG11[12]";
 		INDEX = 337;
 		FORMAT = E;
 		SCALE = 1;
@@ -6285,7 +6285,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG11[10]";
+		SIGNAL = "REG11[11]";
 		INDEX = 338;
 		FORMAT = E;
 		SCALE = 1;
@@ -6293,7 +6293,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG11[9]";
+		SIGNAL = "REG11[10]";
 		INDEX = 339;
 		FORMAT = E;
 		SCALE = 1;
@@ -6301,7 +6301,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG11[8]";
+		SIGNAL = "REG11[9]";
 		INDEX = 340;
 		FORMAT = E;
 		SCALE = 1;
@@ -6309,7 +6309,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG11[7]";
+		SIGNAL = "REG11[8]";
 		INDEX = 341;
 		FORMAT = E;
 		SCALE = 1;
@@ -6317,7 +6317,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG11[6]";
+		SIGNAL = "REG11[7]";
 		INDEX = 342;
 		FORMAT = E;
 		SCALE = 1;
@@ -6325,7 +6325,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG11[5]";
+		SIGNAL = "REG11[6]";
 		INDEX = 343;
 		FORMAT = E;
 		SCALE = 1;
@@ -6333,7 +6333,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG11[4]";
+		SIGNAL = "REG11[5]";
 		INDEX = 344;
 		FORMAT = E;
 		SCALE = 1;
@@ -6341,7 +6341,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG11[3]";
+		SIGNAL = "REG11[4]";
 		INDEX = 345;
 		FORMAT = E;
 		SCALE = 1;
@@ -6349,7 +6349,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG11[2]";
+		SIGNAL = "REG11[3]";
 		INDEX = 346;
 		FORMAT = E;
 		SCALE = 1;
@@ -6357,7 +6357,7 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG11[1]";
+		SIGNAL = "REG11[2]";
 		INDEX = 347;
 		FORMAT = E;
 		SCALE = 1;
@@ -6365,8 +6365,16 @@ VECTOR("I:/UNIVERSUTY/SIFO/IVERYWANTDIE/db/CP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "REG11[0]";
+		SIGNAL = "REG11[1]";
 		INDEX = 348;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "REG11[0]";
+		INDEX = 349;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
