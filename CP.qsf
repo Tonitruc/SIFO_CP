@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Stratix II"
 set_global_assignment -name DEVICE AUTO
-set_global_assignment -name TOP_LEVEL_ENTITY MICROPROCESSOR
+set_global_assignment -name TOP_LEVEL_ENTITY STACK
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "9.1 SP2"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "20:05:12  MARCH 19, 2025"
 set_global_assignment -name LAST_QUARTUS_VERSION "9.1 SP2"
@@ -71,6 +71,7 @@ set_global_assignment -name BDF_FILE MICROPROCESSOR.bdf
 set_global_assignment -name BDF_FILE MAIN.bdf
 set_global_assignment -name HEX_FILE RAM.hex
 set_global_assignment -name HEX_FILE ROM.hex
+set_global_assignment -name QIP_FILE Modules/lpm_counter13.qip
 set_global_assignment -name QIP_FILE Modules/lpm_mux2_15.qip
 set_global_assignment -name QIP_FILE Modules/lpm_bustri2_15.qip
 set_global_assignment -name QIP_FILE Modules/lpm_decode12.qip
@@ -100,6 +101,9 @@ set_global_assignment -name QIP_FILE lpm_decode0.qip
 set_global_assignment -name QIP_FILE lpm_add_sub0.qip
 set_global_assignment -name QIP_FILE lpm_clshift0.qip
 set_global_assignment -name QIP_FILE lpm_compare0.qip
+set_global_assignment -name QIP_FILE lpm_counter133.qip
+set_global_assignment -name QIP_FILE lpm_mux2_1.qip
+set_global_assignment -name QIP_FILE lpm_dff15_stack.qip
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
