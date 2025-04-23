@@ -1,8 +1,26 @@
 <?xml version="1.0" ?>
 <LOG_ROOT>
 	<PROJECT NAME="CP">
-		<CBX_INST_ENTRY INSTANCE_NAME="|STACK|lpm_counter133:inst7|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_uri.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|STACK|lpm_decode16:inst5|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_e9f.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|STACK|lpm_mux2_1:inst9|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_nnc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MICROPROCESSOR|EXECUTER:inst12|ALU:inst7|lpm_add_sub0:inst7|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_qgh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MICROPROCESSOR|GPR:inst11|lpm_decode12:inst|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_e9f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MICROPROCESSOR|EXECUTER:inst12|lpm_decode32_16:inst13|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_j9f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MICROPROCESSOR|COMMAND_READER:inst2|DCa:inst8|lpm_decode16:inst2|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_e9f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MICROPROCESSOR|COMMAND_READER:inst2|lpm_counter256:inst|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_j4l.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MICROPROCESSOR|EXECUTER:inst12|ALU:inst7|lpm_clshift0:inst8|lpm_clshift:lpm_clshift_component" CBX_FILE_NAME="lpm_clshift_jhc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MICROPROCESSOR|MEMORY:inst10|lpm_mux2_15:inst5|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_cpc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MICROPROCESSOR|OPERAND_READER:inst9|lpm_counter8:inst26|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_8kj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MICROPROCESSOR|COMMAND_PARSER:inst3|lpm_decode32_16:inst13|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_j9f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MICROPROCESSOR|EXECUTER:inst12|STACK:inst16|lpm_decode16:inst5|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_e9f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MICROPROCESSOR|MEMORY:inst10|rom:inst1|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_ij71.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MICROPROCESSOR|OPERAND_READER:inst9|lpm_constant0_5:inst12|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_nf6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MICROPROCESSOR|OPERAND_READER:inst9|lpm_decode8_3:inst25|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_u7f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MICROPROCESSOR|RESULT_WRITER:inst13|lpm_counter4_mod3:inst4|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_6oi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MICROPROCESSOR|RESULT_WRITER:inst13|lpm_decode0:inst24|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_p7f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MICROPROCESSOR|COMMAND_READER:inst2|DCa:inst8|lpm_counter16:inst|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_gii.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MICROPROCESSOR|EXECUTER:inst12|ALU:inst7|lpm_compare0:inst13|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_cii.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MICROPROCESSOR|MEMORY:inst10|ram:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_9ba1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MICROPROCESSOR|OPERAND_READER:inst9|lpm_constant0_5:inst8|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_nf6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MICROPROCESSOR|EXECUTER:inst12|STACK:inst16|lpm_counter133:inst7|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_uri.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MICROPROCESSOR|OPERAND_READER:inst9|lpm_mux2_4:inst44|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_qnc.tdf"/>
 	</PROJECT>
 </LOG_ROOT>

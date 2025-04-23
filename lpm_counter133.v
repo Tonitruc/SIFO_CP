@@ -123,6 +123,6 @@ endmodule
 // Retrieval info: GEN_FILE: TYPE_NORMAL lpm_counter133.bsf TRUE FALSE
 // Retrieval info: GEN_FILE: TYPE_NORMAL lpm_counter133_inst.v FALSE
 // Retrieval info: GEN_FILE: TYPE_NORMAL lpm_counter133_bb.v FALSE
-// Retrieval info: GEN_FILE: TYPE_NORMAL lpm_counter133_waveforms.html TRUE
+// Retrieval info: GEN_FILE: TYPE_NORMAL lpm_counter133_waveforms.html FALSE
 // Retrieval info: GEN_FILE: TYPE_NORMAL lpm_counter133_wave*.jpg FALSE
 // Retrieval info: LIB_FILE: lpm

@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Stratix II"
 set_global_assignment -name DEVICE AUTO
-set_global_assignment -name TOP_LEVEL_ENTITY STACK
+set_global_assignment -name TOP_LEVEL_ENTITY MICROPROCESSOR
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "9.1 SP2"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "20:05:12  MARCH 19, 2025"
 set_global_assignment -name LAST_QUARTUS_VERSION "9.1 SP2"
@@ -52,7 +52,6 @@ set_global_assignment -name EDA_LMF_FILE fpga_exp.lmf -entity ram.v -section_id 
 set_global_assignment -name EDA_SHOW_LMF_MAPPING_MESSAGES OFF -entity ram.v -section_id eda_design_synthesis
 set_global_assignment -name EDA_RUN_TOOL_AUTOMATICALLY OFF -entity ram.v -section_id eda_design_synthesis
 set_global_assignment -name EDA_INPUT_DATA_FORMAT EDIF -entity ram.v -section_id eda_design_synthesis
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE MAIN.vwf
 set_global_assignment -name SIMULATOR_GENERATE_POWERPLAY_VCD_FILE OFF
 set_global_assignment -name BDF_FILE MEMORY.bdf
 set_global_assignment -name BDF_FILE DCa.bdf
@@ -104,6 +103,8 @@ set_global_assignment -name QIP_FILE lpm_compare0.qip
 set_global_assignment -name QIP_FILE lpm_counter133.qip
 set_global_assignment -name QIP_FILE lpm_mux2_1.qip
 set_global_assignment -name QIP_FILE lpm_dff15_stack.qip
+set_global_assignment -name VECTOR_WAVEFORM_FILE STACK.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE MAIN.vwf
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"

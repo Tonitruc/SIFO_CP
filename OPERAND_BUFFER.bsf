@@ -68,8 +68,8 @@ applicable agreement for further details.
 	(port
 		(pt 0 128)
 		(input)
-		(text "IS_NO_OP" (rect 0 0 59 14)(font "Arial" (font_size 8)))
-		(text "IS_NO_OP" (rect 21 123 80 137)(font "Arial" (font_size 8)))
+		(text "IS_NO_DEST" (rect 0 0 73 14)(font "Arial" (font_size 8)))
+		(text "IS_NO_DEST" (rect 21 123 94 137)(font "Arial" (font_size 8)))
 		(line (pt 0 128)(pt 16 128)(line_width 1))
 	)
 	(port
@@ -117,8 +117,8 @@ applicable agreement for further details.
 	(port
 		(pt 320 112)
 		(output)
-		(text "NO_OP" (rect 0 0 41 14)(font "Arial" (font_size 8)))
-		(text "NO_OP" (rect 258 107 299 121)(font "Arial" (font_size 8)))
+		(text "NO_DEST" (rect 0 0 55 14)(font "Arial" (font_size 8)))
+		(text "NO_DEST" (rect 244 107 299 121)(font "Arial" (font_size 8)))
 		(line (pt 320 112)(pt 304 112)(line_width 1))
 	)
 	(drawing
