@@ -47,9 +47,16 @@ applicable agreement for further details.
 	(port
 		(pt 256 48)
 		(output)
-		(text "CTRL_ACCESS[5..0]" (rect 0 0 115 14)(font "Arial" (font_size 8)))
-		(text "CTRL_ACCESS[5..0]" (rect 120 43 235 57)(font "Arial" (font_size 8)))
+		(text "CTRL_ACCESS[6..0]" (rect 0 0 115 14)(font "Arial" (font_size 8)))
+		(text "CTRL_ACCESS[6..0]" (rect 120 43 235 57)(font "Arial" (font_size 8)))
 		(line (pt 256 48)(pt 240 48)(line_width 3))
+	)
+	(port
+		(pt 256 64)
+		(output)
+		(text "PC[8..0]" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "PC[8..0]" (rect 192 59 235 73)(font "Arial" (font_size 8)))
+		(line (pt 256 64)(pt 240 64)(line_width 3))
 	)
 	(drawing
 		(rectangle (rect 16 16 240 80)(line_width 1))

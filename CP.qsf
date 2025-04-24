@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Stratix II"
 set_global_assignment -name DEVICE AUTO
-set_global_assignment -name TOP_LEVEL_ENTITY MICROPROCESSOR
+set_global_assignment -name TOP_LEVEL_ENTITY MEMORY
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "9.1 SP2"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "20:05:12  MARCH 19, 2025"
 set_global_assignment -name LAST_QUARTUS_VERSION "9.1 SP2"
@@ -53,6 +53,7 @@ set_global_assignment -name EDA_SHOW_LMF_MAPPING_MESSAGES OFF -entity ram.v -sec
 set_global_assignment -name EDA_RUN_TOOL_AUTOMATICALLY OFF -entity ram.v -section_id eda_design_synthesis
 set_global_assignment -name EDA_INPUT_DATA_FORMAT EDIF -entity ram.v -section_id eda_design_synthesis
 set_global_assignment -name SIMULATOR_GENERATE_POWERPLAY_VCD_FILE OFF
+set_global_assignment -name BDF_FILE CMD_PARSER_BUFFER.bdf
 set_global_assignment -name BDF_FILE MEMORY.bdf
 set_global_assignment -name BDF_FILE DCa.bdf
 set_global_assignment -name BDF_FILE CU.bdf
@@ -64,12 +65,14 @@ set_global_assignment -name BDF_FILE GPR.bdf
 set_global_assignment -name BDF_FILE OPERAND_BUFFER.bdf
 set_global_assignment -name BDF_FILE EXECUTER.bdf
 set_global_assignment -name BDF_FILE ALU.bdf
+set_global_assignment -name BDF_FILE FLAGS_BLOCK.bdf
 set_global_assignment -name BDF_FILE STACK.bdf
 set_global_assignment -name BDF_FILE RESULT_WRITER.bdf
 set_global_assignment -name BDF_FILE MICROPROCESSOR.bdf
 set_global_assignment -name BDF_FILE MAIN.bdf
 set_global_assignment -name HEX_FILE RAM.hex
 set_global_assignment -name HEX_FILE ROM.hex
+set_global_assignment -name QIP_FILE Modules/lpm_bustri1_1.qip
 set_global_assignment -name QIP_FILE Modules/lpm_counter13.qip
 set_global_assignment -name QIP_FILE Modules/lpm_mux2_15.qip
 set_global_assignment -name QIP_FILE Modules/lpm_bustri2_15.qip
@@ -104,7 +107,11 @@ set_global_assignment -name QIP_FILE lpm_counter133.qip
 set_global_assignment -name QIP_FILE lpm_mux2_1.qip
 set_global_assignment -name QIP_FILE lpm_dff15_stack.qip
 set_global_assignment -name VECTOR_WAVEFORM_FILE STACK.vwf
+set_global_assignment -name QIP_FILE lpm_dff13_stack.qip
+set_global_assignment -name QIP_FILE lpm_add_sub1plus.qip
+set_global_assignment -name QIP_FILE lpm_add_sub1minus.qip
 set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE MAIN.vwf
+set_global_assignment -name END_TIME "3 ms"
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"

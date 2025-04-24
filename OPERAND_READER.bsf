@@ -20,9 +20,9 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.1"))
 (symbol
-	(rect 16 16 400 336)
+	(rect 16 16 400 368)
 	(text "OPERAND_READER" (rect 5 0 118 14)(font "Arial" (font_size 8)))
-	(text "inst" (rect 8 304 25 316)(font "Arial" ))
+	(text "inst" (rect 8 336 25 348)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -143,6 +143,13 @@ applicable agreement for further details.
 		(line (pt 0 288)(pt 16 288)(line_width 1))
 	)
 	(port
+		(pt 0 304)
+		(input)
+		(text "IS_JUMP" (rect 0 0 48 14)(font "Arial" (font_size 8)))
+		(text "IS_JUMP" (rect 21 299 69 313)(font "Arial" (font_size 8)))
+		(line (pt 0 304)(pt 16 304)(line_width 1))
+	)
+	(port
 		(pt 384 32)
 		(output)
 		(text "FIRST_OPERAND[14..0]" (rect 0 0 133 14)(font "Arial" (font_size 8)))
@@ -229,11 +236,11 @@ applicable agreement for further details.
 	(port
 		(pt 384 224)
 		(output)
-		(text "SUCH_DCA[2..0]" (rect 0 0 94 14)(font "Arial" (font_size 8)))
-		(text "SUCH_DCA[2..0]" (rect 269 219 363 233)(font "Arial" (font_size 8)))
-		(line (pt 384 224)(pt 368 224)(line_width 3))
+		(text "NEED_JUMP" (rect 0 0 68 14)(font "Arial" (font_size 8)))
+		(text "NEED_JUMP" (rect 295 219 363 233)(font "Arial" (font_size 8)))
+		(line (pt 384 224)(pt 368 224)(line_width 1))
 	)
 	(drawing
-		(rectangle (rect 16 16 368 304)(line_width 1))
+		(rectangle (rect 16 16 368 336)(line_width 1))
 	)
 )

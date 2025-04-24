@@ -182,7 +182,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1168 736 1346 752)
+	(rect 1192 736 1370 752)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "RESULT_WRITE" (rect 90 0 173 12)(font "Arial" ))
 	(pt 0 8)
@@ -510,7 +510,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 976 776 1024 808)
+	(rect 960 784 1008 816)
 	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
 	(text "inst2" (rect 3 21 26 33)(font "Arial" ))
 	(port
@@ -1018,9 +1018,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 880 696 928 728)
+	(rect 960 816 1008 848)
 	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
-	(text "inst32" (rect 3 21 32 33)(font "Arial" ))
+	(text "inst36" (rect 3 21 32 33)(font "Arial" ))
 	(port
 		(pt 0 16)
 		(input)
@@ -1043,9 +1043,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1024 776 1088 824)
+	(rect 1024 800 1088 848)
 	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
-	(text "inst34" (rect 3 37 32 49)(font "Arial" ))
+	(text "inst39" (rect 3 37 32 49)(font "Arial" ))
 	(port
 		(pt 0 16)
 		(input)
@@ -1387,11 +1387,6 @@ applicable agreement for further details.
 	(pt 1104 736)
 )
 (connector
-	(text "enable" (rect 882 720 913 732)(font "Arial" ))
-	(pt 1008 728)
-	(pt 976 728)
-)
-(connector
 	(pt 1080 736)
 	(pt 1080 720)
 )
@@ -1404,25 +1399,45 @@ applicable agreement for further details.
 	(pt 1096 792)
 )
 (connector
-	(pt 1088 800)
-	(pt 1096 800)
+	(text "enable" (rect 954 712 985 724)(font "Arial" ))
+	(pt 976 728)
+	(pt 1008 728)
 )
 (connector
-	(pt 1096 800)
+	(pt 1096 824)
+	(pt 1088 824)
+)
+(connector
 	(pt 1096 792)
+	(pt 1096 824)
 )
 (connector
-	(text "is_no_dest" (rect 832 696 885 708)(font "Arial" ))
-	(pt 880 712)
-	(pt 848 712)
+	(pt 1024 816)
+	(pt 1016 816)
 )
 (connector
-	(pt 976 792)
-	(pt 936 792)
+	(pt 1168 744)
+	(pt 1192 744)
+)
+(connector
+	(pt 1024 832)
+	(pt 1008 832)
+)
+(connector
+	(pt 936 800)
+	(pt 960 800)
 )
 (connector
 	(pt 936 752)
-	(pt 936 792)
+	(pt 936 800)
+)
+(connector
+	(pt 1016 800)
+	(pt 1008 800)
+)
+(connector
+	(pt 1016 816)
+	(pt 1016 800)
 )
 (connector
 	(text "result_ready" (rect 840 744 901 756)(font "Arial" ))
@@ -1434,19 +1449,20 @@ applicable agreement for further details.
 	(pt 1104 752)
 )
 (connector
-	(pt 1024 808)
-	(pt 944 808)
+	(pt 960 832)
+	(pt 880 832)
 )
 (connector
-	(pt 944 808)
-	(pt 944 712)
+	(pt 880 712)
+	(pt 880 832)
 )
 (connector
-	(pt 928 712)
-	(pt 944 712)
+	(text "is_no_dest" (rect 832 696 885 708)(font "Arial" ))
+	(pt 856 712)
+	(pt 880 712)
 )
 (connector
-	(pt 944 712)
+	(pt 880 712)
 	(pt 1008 712)
 )
 (junction (pt 1104 640))
@@ -1457,7 +1473,7 @@ applicable agreement for further details.
 (junction (pt 1288 656))
 (junction (pt 1088 384))
 (junction (pt 936 752))
-(junction (pt 944 712))
+(junction (pt 880 712))
 (text "Запись по адресу в reg" (rect 1032 560 1173 574)(font "Arial" (font_size 8)))
 (text "Запись по адресу ram" (rect 1032 488 1164 502)(font "Arial" (font_size 8)))
 (text "Разрешение доступа к памяти" (rect 1032 408 1214 422)(font "Arial" (font_size 8)))

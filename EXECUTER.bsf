@@ -20,9 +20,9 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.1"))
 (symbol
-	(rect 16 16 344 336)
+	(rect 16 16 344 368)
 	(text "EXECUTER" (rect 5 0 66 14)(font "Arial" (font_size 8)))
-	(text "inst" (rect 8 304 25 316)(font "Arial" ))
+	(text "inst" (rect 8 336 25 348)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -75,9 +75,9 @@ applicable agreement for further details.
 	(port
 		(pt 328 64)
 		(output)
-		(text "SF" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "SF" (rect 292 59 307 73)(font "Arial" (font_size 8)))
-		(line (pt 328 64)(pt 312 64)(line_width 1))
+		(text "FLAGS[1..0]" (rect 0 0 69 14)(font "Arial" (font_size 8)))
+		(text "FLAGS[1..0]" (rect 238 59 307 73)(font "Arial" (font_size 8)))
+		(line (pt 328 64)(pt 312 64)(line_width 3))
 	)
 	(port
 		(pt 328 80)
@@ -173,11 +173,18 @@ applicable agreement for further details.
 	(port
 		(pt 328 288)
 		(output)
-		(text "TEST" (rect 0 0 29 14)(font "Arial" (font_size 8)))
-		(text "TEST" (rect 278 283 307 297)(font "Arial" (font_size 8)))
-		(line (pt 328 288)(pt 312 288)(line_width 1))
+		(text "STACK_OUT[14..0]" (rect 0 0 108 14)(font "Arial" (font_size 8)))
+		(text "STACK_OUT[14..0]" (rect 199 283 307 297)(font "Arial" (font_size 8)))
+		(line (pt 328 288)(pt 312 288)(line_width 3))
+	)
+	(port
+		(pt 328 304)
+		(output)
+		(text "STACK_EMPTY" (rect 0 0 88 14)(font "Arial" (font_size 8)))
+		(text "STACK_EMPTY" (rect 219 299 307 313)(font "Arial" (font_size 8)))
+		(line (pt 328 304)(pt 312 304)(line_width 1))
 	)
 	(drawing
-		(rectangle (rect 16 16 312 304)(line_width 1))
+		(rectangle (rect 16 16 312 336)(line_width 1))
 	)
 )

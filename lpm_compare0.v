@@ -38,21 +38,25 @@
 // synopsys translate_on
 module lpm_compare0 (
 	dataa,
+	aeb,
 	alb);
 
 	input	[14:0]  dataa;
+	output	  aeb;
 	output	  alb;
 
 	wire  sub_wire0;
-	wire [14:0] sub_wire1 = 15'h0000;
+	wire  sub_wire1;
+	wire [14:0] sub_wire2 = 15'h0000;
 	wire  alb = sub_wire0;
+	wire  aeb = sub_wire1;
 
 	lpm_compare	lpm_compare_component (
 				.dataa (dataa),
-				.datab (sub_wire1),
+				.datab (sub_wire2),
 				.alb (sub_wire0),
+				.aeb (sub_wire1),
 				.aclr (1'b0),
-				.aeb (),
 				.agb (),
 				.ageb (),
 				.aleb (),
@@ -71,7 +75,7 @@ endmodule
 // ============================================================
 // CNX file retrieval info
 // ============================================================
-// Retrieval info: PRIVATE: AeqB NUMERIC "0"
+// Retrieval info: PRIVATE: AeqB NUMERIC "1"
 // Retrieval info: PRIVATE: AgeB NUMERIC "0"
 // Retrieval info: PRIVATE: AgtB NUMERIC "0"
 // Retrieval info: PRIVATE: AleB NUMERIC "0"
@@ -92,8 +96,10 @@ endmodule
 // Retrieval info: CONSTANT: LPM_REPRESENTATION STRING "SIGNED"
 // Retrieval info: CONSTANT: LPM_TYPE STRING "LPM_COMPARE"
 // Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "15"
+// Retrieval info: USED_PORT: AeB 0 0 0 0 OUTPUT NODEFVAL AeB
 // Retrieval info: USED_PORT: AlB 0 0 0 0 OUTPUT NODEFVAL AlB
 // Retrieval info: USED_PORT: dataa 0 0 15 0 INPUT NODEFVAL dataa[14..0]
+// Retrieval info: CONNECT: AeB 0 0 0 0 @AeB 0 0 0 0
 // Retrieval info: CONNECT: AlB 0 0 0 0 @AlB 0 0 0 0
 // Retrieval info: CONNECT: @dataa 0 0 15 0 dataa 0 0 15 0
 // Retrieval info: CONNECT: @datab 0 0 15 0 0 0 0 0 0

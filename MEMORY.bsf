@@ -68,23 +68,9 @@ applicable agreement for further details.
 	(port
 		(pt 248 32)
 		(output)
-		(text "maddr[7..0]" (rect 0 0 63 14)(font "Arial" (font_size 8)))
-		(text "maddr[7..0]" (rect 164 27 227 41)(font "Arial" (font_size 8)))
-		(line (pt 248 32)(pt 232 32)(line_width 3))
-	)
-	(port
-		(pt 248 48)
-		(output)
-		(text "mt" (rect 0 0 12 14)(font "Arial" (font_size 8)))
-		(text "mt" (rect 215 43 227 57)(font "Arial" (font_size 8)))
-		(line (pt 248 48)(pt 232 48)(line_width 1))
-	)
-	(port
-		(pt 248 64)
-		(output)
 		(text "OUT_DATA[14..0]" (rect 0 0 101 14)(font "Arial" (font_size 8)))
-		(text "OUT_DATA[14..0]" (rect 126 59 227 73)(font "Arial" (font_size 8)))
-		(line (pt 248 64)(pt 232 64)(line_width 3))
+		(text "OUT_DATA[14..0]" (rect 126 27 227 41)(font "Arial" (font_size 8)))
+		(line (pt 248 32)(pt 232 32)(line_width 3))
 	)
 	(drawing
 		(rectangle (rect 16 16 232 144)(line_width 1))
