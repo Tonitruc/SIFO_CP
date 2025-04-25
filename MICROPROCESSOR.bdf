@@ -2954,10 +2954,6 @@ applicable agreement for further details.
 	(pt 440 256)
 )
 (connector
-	(pt 440 256)
-	(pt 464 256)
-)
-(connector
 	(pt 720 336)
 	(pt 736 336)
 	(bus)
@@ -3012,5 +3008,4 @@ applicable agreement for further details.
 (junction (pt 1520 272))
 (junction (pt 1496 496))
 (junction (pt 552 16))
-(junction (pt 440 256))
 (text "Шина запросов к ЦУ" (rect 432 112 554 126)(font "Arial" (font_size 8)))

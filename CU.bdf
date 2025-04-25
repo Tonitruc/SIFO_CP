@@ -1333,4 +1333,3 @@ applicable agreement for further details.
 (junction (pt 656 -48))
 (junction (pt 552 -160))
 (junction (pt 992 112))
-(text "ctrl[0] - чтение ROM" (rect 904 -80 1020 -66)(font "Arial" (font_size 8)))

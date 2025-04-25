@@ -1,8 +1,6 @@
 <?xml version="1.0" ?>
 <LOG_ROOT>
 	<PROJECT NAME="CP">
-		<CBX_INST_ENTRY INSTANCE_NAME="|MEMORY|lpm_mux2_15:inst5|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_cpc.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MEMORY|ram:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_9ba1.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|MEMORY|rom:inst1|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_ij71.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CU|lpm_counter256:inst25|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_j4l.tdf"/>
 	</PROJECT>
 </LOG_ROOT>
